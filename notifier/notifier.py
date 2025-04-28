@@ -2,7 +2,7 @@ from plyer import notification
 import requests
 import time
 
-API_URL = "http://localhost:8000/messages/random"
+API_URL = "https://motivational-notifier-production.up.railway.app/messages/random"
 
 def fetch_and_notify():
     try:
